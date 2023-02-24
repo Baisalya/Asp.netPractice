@@ -69,8 +69,12 @@
   <ItemGroup>
     <Content Include="task2.aspx" />
     <Content Include="task3.aspx" />
+    <Content Include="task4.aspx" />
+    <Content Include="task4b.aspx" />
+    <Content Include="task5.aspx" />
+    <Content Include="task5b.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="task1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -88,12 +92,40 @@
     <Compile Include="task3.aspx.designer.cs">
       <DependentUpon>task3.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="task1.aspx.cs">
+      <DependentUpon>task1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="task1.aspx.designer.cs">
+      <DependentUpon>task1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="task4.aspx.cs">
+      <DependentUpon>task4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="task4.aspx.designer.cs">
+      <DependentUpon>task4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="task4b.aspx.cs">
+      <DependentUpon>task4b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="task4b.aspx.designer.cs">
+      <DependentUpon>task4b.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="task5.aspx.cs">
+      <DependentUpon>task5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="task5.aspx.designer.cs">
+      <DependentUpon>task5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="task5b.aspx.cs">
+      <DependentUpon>task5b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="task5b.aspx.designer.cs">
+      <DependentUpon>task5b.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

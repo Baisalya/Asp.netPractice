@@ -23,7 +23,7 @@
         <p>
             <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
         </p>
-        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
     </form>
 </body>
 </html>
